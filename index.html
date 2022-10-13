@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP vs HTTPS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>HTTP vs HTTPS</h1>
+    <section>
+
+        <div class="box muestra">
+            <h2>¿Qué es HTTP?</h2>
+            <p>La forma completa de HTTP es el Protocolo de transferencia de hipertexto. HTTP ofrece un conjunto de
+                reglas y
+                estándares que rigen cómo se puede transmitir cualquier información en la World Wide Web. HTTP
+                proporciona
+                reglas estándar para que los servidores y navegadores web se comuniquen.</p>
+
+            <p> HTTP es un protocolo de red de capa de aplicación que se basa en TCP. HTTP utiliza texto estructurado de
+                hipertexto que establece el vínculo lógico entre los nodos que contienen texto. También se conoce como
+                "protocolo sin estado", ya que cada comando se ejecuta por separado, sin utilizar la referencia del
+                comando
+                de
+                ejecución anterior.</p>
+        </div>
+        <div class="box oculto">
+            <h2>¿Qué es HTTPS?</h2>
+            <p>HTTPS significa Protocolo de transferencia de hipertexto seguro. Es una versión muy avanzada y segura de
+                HTTP.
+                Utiliza el puerto no. 443 para Comunicación de Datos. Permite transacciones seguras encriptando toda la
+                comunicación con SSL. Es una combinación del protocolo SSL/TLS y HTTP. Proporciona identificación
+                encriptada
+                y
+                segura de un servidor de red.</p>
+            <p>HTTP también le permite crear una conexión cifrada segura entre el servidor y el navegador. Ofrece la
+                seguridad
+                bidireccional de los datos. Esto le ayuda a proteger la información potencialmente confidencial del
+                robo.
+            </p>
+            <p>En el protocolo HTTPS, las transacciones SSL se negocian con la ayuda de un algoritmo de cifrado basado
+                en
+                claves. Esta clave generalmente tiene una fuerza de 40 o 128 bits.</p>
+        </div>
+    </section>
+    <section>
+        <div class="box oculto">
+            <h2>Ventajas de HTTP</h2>
+            <ul>
+                <li>HTTP se puede implementar con otro protocolo en Internet o en otras redes</li>
+                <li>Las páginas HTTP se almacenan en la memoria caché de la computadora y de Internet, por lo que se
+                    puede
+                    acceder a ellas rápidamente</li>
+                <li>Plataforma independiente que permite la portabilidad multiplataforma</li>
+                <li>No necesita ningún soporte de tiempo de ejecución</li>
+                <li>¡Utilizable sobre cortafuegos! Las aplicaciones globales son posibles</li>
+                <li>no orientado a la conexión; por lo que no hay sobrecarga de red para crear y mantener el estado de
+                    la
+                    sesión y la información</li>
+            </ul>
+        </div>
+        <div class="box oculto">
+            <h2>Ventajas de HTTPS</h2>
+            <ul>
+                <li>En la mayoría de los casos, los sitios que se ejecutan en HTTPS tendrán una redirección. Por lo tanto,
+                    incluso si escribe HTTP://, se redirigirá a un https a través de una conexión segura.</li>
+                <li>Permite a los usuarios realizar transacciones de comercio electrónico seguras, como la banca en
+                    línea.
+                </li>
+                <li>La tecnología SSL protege a los usuarios y genera confianza</li>
+                <li>Una autoridad independiente verifica la identidad del propietario del certificado. Por lo tanto,
+                    cada
+                    certificado SSL contiene información única y autenticada sobre el propietario del certificado.</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="box oculto">
+            <h2>Limitaciones de HTTP</h2>
+            <ul>
+                <li>No hay privacidad ya que cualquiera puede ver el contenido.</li>
+                <li>La integridad de los datos es un gran problema ya que alguien puede alterar el contenido. Es por eso
+                    que
+                    el protocolo HTTP es un método inseguro ya que no se utilizan métodos de encriptación.</li>
+                <li>No está claro de quién está hablando. Cualquiera que intercepte la solicitud puede obtener el nombre
+                    de
+                    usuario y la contraseña.</li>
+            </ul>
+        </div>
+        <div class="box oculto">
+            <h2>Limitaciones de HTTPS</h2>
+            <ul>
+                <li>El protocolo HTTPS no puede dejar de robar información confidencial de las páginas almacenadas en
+                    caché
+                    en el navegador</li>
+                <li>Los datos SSL solo se pueden cifrar durante la transmisión en la red. Entonces no puede borrar el
+                    texto
+                    en la memoria del navegador.</li>
+                <li>HTTPS puede aumentar la sobrecarga computacional, así como la sobrecarga de la red de la
+                    organización
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="container-table">
+        <table class="oculto">
+            <thead>
+                <tr>
+                    <th class="columna1">Parametro</th>
+                    <th class="columna2">HTTP</th>
+                    <th class="columna3">HTTPS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="columna1">Protocolo</td>
+                    <td class="columna2">Es un protocolo de transferencia de hipertexto. </td>
+                    <td class="columna3">Es un protocolo de transferencia de hipertexto con seguridad.</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Seguridad</td>
+                    <td class="columna2">Es menos seguro ya que los datos pueden ser vulnerables a los piratas
+                        informáticos.</td>
+                    <td class="columna3">Está diseñado para evitar que los hackers accedan a información crítica. Es
+                        seguro contra este
+                        tipo
+                        de ataques.</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Puerto</td>
+                    <td class="columna2">Utiliza el puerto 80 por defecto.</td>
+                    <td class="columna3">Usaba el puerto 443 por defecto.</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Empieza por</td>
+                    <td class="columna2">Las URL HTTP comienzan con http:// </td>
+                    <td class="columna3">Las URL de HTTP comienzan con https://</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Usado para</td>
+                    <td class="columna2">Es una buena opción para sitios web diseñados para el consumo de información,
+                        como los blogs.
+                    </td>
+                    <td class="columna3">Si el sitio web necesita recopilar información privada, como el número de
+                        tarjeta de crédito,
+                        entonces es un protocolo más seguro.</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Codificación</td>
+                    <td class="columna2">HTTP no codifica los datos que se van a transmitir. Es por eso que existe una
+                        mayor probabilidad
+                        de
+                        que la información transmitida esté disponible para los piratas informáticos. </td>
+                    <td class="columna3">HTTPS no tiene ningún protocolo separado. Funciona mediante HTTP pero utiliza
+                        una conexión
+                        TLS/SSL
+                        encriptada.</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Protocolo</td>
+                    <td class="columna2">Opera a nivel de TCP/IP.</td>
+                    <td class="columna3">HTTPS does not have any separate protocol. It operates using HTTP but uses
+                        encrypted TLS/SSL
+                        connection.</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Validación de nombre de dominio</td>
+                    <td class="columna2">El sitio web HTTP no necesita SSL.</td>
+                    <td class="columna3">HTTPS requiere certificado SSL.</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Cifrado de datos </td>
+                    <td class="columna2">El sitio web HTTP no utiliza cifrado. </td>
+                    <td class="columna3">Los sitios web HTTPS usan encriptación de datos.</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Clasificación de búsqueda</td>
+                    <td class="columna2">HTTP no mejora las clasificaciones de búsqueda.</td>
+                    <td class="columna3">HTTPS ayuda a mejorar el ranking de búsqueda.</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Velocidad</td>
+                    <td class="columna2">Rápido</td>
+                    <td class="columna3">Más lento que HTTP</td>
+                </tr>
+                <tr>
+                    <td class="columna1">Vulnerability</td>
+                    <td class="columna2">Vulnerable a los piratas informáticos</td>
+                    <td class="columna3">Es altamente seguro ya que los datos se cifran antes de que se vean en una red.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <button class="button-28" role="button" onclick="muestra()">Sigue Leyendo</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
